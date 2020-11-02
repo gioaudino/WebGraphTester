@@ -24,7 +24,7 @@ import java.util.*;
 public class WebGraphTester {
     private static final String RESULT_EXTENSION = ".secresult";
     private static final XoRoShiRo128PlusRandomGenerator random = new XoRoShiRo128PlusRandomGenerator(0);
-    private static final int[] samples = {10000};
+    private static final int[] samples = {100000};
     private final static DecimalFormatSymbols formatSymbols;
     private final static DecimalFormat df3;
     private static final int WARMUP_RUNS = 3;
